@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greendiary"
+version = "0.1.0"
+authors = [
+    { name = "Risal Nasar", email = "mail.risal@gmail.com" }
+]
+description = "A Python package for common functions to make life easier."
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    # List dependencies here if any, e.g.:
+    # "requests",
+    "cryptography==39.0.1",
+    "gspread==6.1.4",
+    "gspread_dataframe==4.0.0",
+    "IPy==1.01",
+    "ldap3==2.9.1",
+    "matplotlib==3.10.0",
+    "netaddr==1.3.0",
+    "numpy==1.24.2",
+    "pandas==1.5.3",
+    "protobuf==5.29.3",
+    "pyodbc==5.2.0",
+    "pytz==2022.7.1",
+    "PyYAML==6.0",
+    "PyYAML==6.0.2",
+    "Requests==2.32.3",
+]
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/RisalNasar/greendiary"
+Repository = "https://github.com/RisalNasar/greendiary"
+Issues = "https://github.com/RisalNasar/greendiary/issues"
