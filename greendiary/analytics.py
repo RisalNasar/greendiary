@@ -16,9 +16,8 @@ from importlib import reload
 import json
 
 
-import commonmath
-import core
-
+from . import commonmath
+from . import core
 
 
 
